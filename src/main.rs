@@ -124,13 +124,12 @@ fn ask_for_type() -> String  {
     ];
 
     let selection = Select::with_theme(&ColorfulTheme::default())
-        .with_prompt("Pick your flavor")
+        .with_prompt("What is the type of the package?")
         .default(0)
         .items(&selections[..])
         .interact()
         .unwrap();
 
-    println!("Enjoy your {}!", selections[selection]);
 
     let value = selections[selection].to_owned();
     return value;
