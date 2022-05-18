@@ -2,6 +2,12 @@
 name = "spm-helper"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0"
+description = "A program that helps you make .spm packages"
+homepage = "https://sovietlinux.ml/"
+documentation = "https://docs.sovietlinux.ml/repo"
+repository = "https://github.com/Soviet-Linux/spm-helper"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
