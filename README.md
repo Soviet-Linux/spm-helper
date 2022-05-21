@@ -1,37 +1,47 @@
 # <p align="center">SPM-Helper</p>
 
+# Rust version:
+
 ## Installation
 
-run this command to clone the repo:
+### PYTHON:
+install [python](https://www.python.org/) and [git](https://git-scm.com/) \
+Clone the repo with this command:
 ```
-git clone https://github.com/Soviet-Linux/spm-helper.git
+git clone -b Python https://github.com/Soviet-Linux/spm-helper.git
 ```
 
-then run it 
 
-Windows: \
-Install [rust](https://www.rust-lang.org/tools/install?platform_override=win) from [here](https://www.rust-lang.org/tools/install?platform_override=win) then run `install-windows.bat`
+### RUST:
 
-Linux: \
-run this to make the file a executable
+Clone the repo with this command
+```
+git clone -b Rust https://github.com/Soviet-Linux/spm-helper.git
+```
+Then run the build script
+
+UNIX_BASED: \
+make the install script a executable
 ```
 chmod +x install-linux.sh
 ```
-then run the install file
+then run the script
 ```
-./install-linux.sh
+sudo ./install-linux.sh
 ```
-
+WINDOWS: \
+run the `install-windows.bat` script
 ## Usage
-
-To run it
-
-Windows: \
-the install script will move the exe to the desktop just go there and run spm-helper.exe
-
-Linux \
+### PYTHON:
+run the spm-helper.py
+### RUST:
+UNIX BASED: \
 run 
 ```
 spm-helper
 ```
-in cmd
+in the terminal it will create the package file in the current dir
+
+
+WINDOWS: \
+run the `spm-helper.exe` that the install script created on your desktop
