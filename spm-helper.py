@@ -62,6 +62,3 @@ packageArchivePath = ("%s/%s.src.spm.tar.gz" % (getcwd(),name))
 system(("( cd %s && tar -cvf %s * ) " % (tempDir,packageArchivePath )))
 system(("rm -rf %s" % tempDir))
 
-
-
-
