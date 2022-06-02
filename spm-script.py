@@ -38,7 +38,7 @@ parsedPattern = json.loads(basicPattern)
 print(parsedPattern)
 parsedPattern["name"] = name
 parsedPattern["type"] = "src"
-parsedPattern["version"] = int(version)
+parsedPattern["version"] = version
 for dependencie in dependencies:
     parsedPattern["dependencies"].append(dependencie)
 parsedPattern["info"]["prepare"] = prepare_info
